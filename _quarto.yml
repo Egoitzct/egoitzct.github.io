@@ -9,6 +9,8 @@ website:
     right:
       - text: "Home"
         file: index.qmd
+      - text: "TidyTuesday"
+        file: tidytuesday.qmd
       - about.qmd
       - icon: github
         href: https://github.com/
