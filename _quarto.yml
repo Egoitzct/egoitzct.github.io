@@ -16,8 +16,7 @@ website:
         href: https://github.com/Egoitzct
 format:
   html:
-    theme:
-      solar
+    theme: solar
     css: styles.css
 
 editor: visual
