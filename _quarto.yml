@@ -4,7 +4,7 @@ project:
 
 website:
   back-to-top-navigation: true
-  title: "TidyTuesday"
+  title: "Egoitz's Page"
   navbar:
     right:
       - text: "Home"
