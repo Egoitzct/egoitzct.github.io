@@ -19,8 +19,7 @@ website:
 format:
   html:
     theme:
-      light: united
-      dark: solar
+      solar
     css: styles.css
 
 editor: visual
