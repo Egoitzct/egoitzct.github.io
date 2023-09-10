@@ -3,9 +3,11 @@ project:
   output-dir: docs
 
 website:
+  favicon: logo.png
   back-to-top-navigation: true
   title: "Egoitz's Page"
   navbar:
+    logo: icono_barra.png
     right:
       - text: "Home"
         file: index.qmd
@@ -16,7 +18,7 @@ website:
         href: https://github.com/Egoitzct
 format:
   html:
-    theme: solar
+    theme: sketchy
     css: styles.css
 
 editor: visual
