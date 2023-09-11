@@ -1,7 +1,7 @@
 ---
 title: "TidyTuesday"
 listing:
-  contents: posts
+  contents: tidytuesday
   sort: "date desc"
   type: default
   categories: true

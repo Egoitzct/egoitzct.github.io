@@ -1,16 +1,13 @@
 [
   {
-    "listing": "/tidytuesday.html",
+    "listing": "/tidytuesday/index.html",
     "items": [
-      "/posts/USA_Etymology/index.html",
-      "/posts/USA_Union_Members/index.html"
+      "/tidytuesday/tidytuesday/USA_Etymology/index.html",
+      "/tidytuesday/tidytuesday/USA_Union_Members/index.html"
     ]
   },
   {
     "listing": "/index.html",
-    "items": [
-      "/posts/USA_Etymology/index.html",
-      "/posts/USA_Union_Members/index.html"
-    ]
+    "items": []
   }
 ]
