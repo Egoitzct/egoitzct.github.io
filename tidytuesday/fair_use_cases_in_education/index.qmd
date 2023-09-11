@@ -4,7 +4,7 @@ description: "TidyTuesday august 29, 2023"
 author: "Egoitz Carral"
 date: "09/03/2023"
 image: "image.jpg"
-categories: [2023, Shiny App, Map] 
+categories: [2023, Plot, ggplot, ggrepel, TidyTuesday] 
 date-modified: "09/03/2023"
 reference-location: block
 bibliography: referencias.bib
