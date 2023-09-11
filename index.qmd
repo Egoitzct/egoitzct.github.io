@@ -3,7 +3,8 @@ title: "Homepage"
 listing:
   contents:
     - posts
-    - tidytuesday/tidytuesday/**/*.qmd
+    - tidytuesday/**/*.qmd
+    - "!tidytuesday/index.qmd"
   sort: "date desc"
   type: default
   categories: true
