@@ -1,22 +1,24 @@
 [
   {
-    "listing": "/archive.html",
-    "items": []
+    "listing": "/tidytuesday/index.html",
+    "items": [
+      "/tidytuesday/USA_Etymology/index.html",
+      "/tidytuesday/USA_Union_Members/index.html",
+      "/tidytuesday/refugees/index.html",
+      "/tidytuesday/fair_use_cases_in_education/index.html"
+    ]
   },
   {
     "listing": "/index.html",
     "items": [
       "/tidytuesday/USA_Etymology/index.html",
       "/tidytuesday/USA_Union_Members/index.html",
+      "/tidytuesday/refugees/index.html",
       "/tidytuesday/fair_use_cases_in_education/index.html"
     ]
   },
   {
-    "listing": "/tidytuesday/index.html",
-    "items": [
-      "/tidytuesday/USA_Etymology/index.html",
-      "/tidytuesday/USA_Union_Members/index.html",
-      "/tidytuesday/fair_use_cases_in_education/index.html"
-    ]
+    "listing": "/archive.html",
+    "items": []
   }
 ]
