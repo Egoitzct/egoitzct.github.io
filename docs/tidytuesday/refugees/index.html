@@ -57,7 +57,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -214,7 +233,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>Para el TidyTuesday de la semana del 22 de agosto, el tema es sobre refugiados. Después de leer la descripción que podemos encontrar en la página de github, he decidido hacer un gráfico en el que se incluyan los diez países que más refugiados han recibido.</p>
+<p>Para el TidyTuesday de la semana del 22 de agosto <span class="citation" data-cites="tidytues">(<a href="#ref-tidytues" role="doc-biblioref">Rfordatascience, 2023</a>)</span>, el tema es sobre refugiados. Después de leer la descripción que podemos encontrar en la página de github, he decidido hacer un gráfico en el que se incluyan los diez países que más refugiados han recibido.</p>
 <p>Cómo siempre, el primer paso es cargar el <em>dataset</em> y los paquetes que usaremos para hacer el gráfico (qué, además de un gráfico estático, también usaremos <em>plotly</em> para añadir un poco de interacción).</p>
 <div class="cell" data-hash="index_cache/html/dataset_download_e51791c289e3cab657ce144b0f88405d">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>population <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-08-22/population.csv'</span>)</span>
@@ -330,7 +349,12 @@ $ hst               &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, 
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-tidytues" class="csl-entry" role="listitem">
+Rfordatascience. (2023). <em>TidyTuesday 2023-08-22 · rfordatascience/tidytuesday</em>. <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-08-22/readme.md">https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-08-22/readme.md</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

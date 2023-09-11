@@ -14,7 +14,7 @@ execute:
   cache: true
 ---
 
-Para el TidyTuesday de la semana del 22 de agosto, el tema es sobre refugiados. Después de leer la descripción que podemos encontrar en la página de github, he decidido hacer un gráfico en el que se incluyan los diez países que más refugiados han recibido.
+Para el TidyTuesday de la semana del 22 de agosto [@tidytues], el tema es sobre refugiados. Después de leer la descripción que podemos encontrar en la página de github, he decidido hacer un gráfico en el que se incluyan los diez países que más refugiados han recibido.
 
 Cómo siempre, el primer paso es cargar el *dataset* y los paquetes que usaremos para hacer el gráfico (qué, además de un gráfico estático, también usaremos *plotly* para añadir un poco de interacción).
 
