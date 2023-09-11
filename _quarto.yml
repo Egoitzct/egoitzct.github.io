@@ -13,6 +13,8 @@ website:
         file: index.qmd
       - text: "TidyTuesday"
         file: "tidytuesday/index.qmd"
+      - text: "Archive"
+        file: archive.qmd
       - about.qmd
       - icon: github
         href: https://github.com/Egoitzct

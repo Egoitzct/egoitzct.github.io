@@ -1,7 +1,9 @@
 ---
 title: "Homepage"
 listing:
-  contents: posts
+  contents:
+    - posts
+    - tidytuesday/tidytuesday/**/*.qmd
   sort: "date desc"
   type: default
   categories: true
