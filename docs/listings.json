@@ -1,10 +1,11 @@
 [
   {
-    "listing": "/tidytuesday/index.html",
+    "listing": "/archive.html",
     "items": [
       "/tidytuesday/USA_Etymology/index.html",
       "/tidytuesday/USA_Union_Members/index.html",
       "/tidytuesday/refugees/index.html",
+      "/tidytuesday/simbolos_spam/index.html",
       "/tidytuesday/fair_use_cases_in_education/index.html"
     ]
   },
@@ -14,15 +15,17 @@
       "/tidytuesday/USA_Etymology/index.html",
       "/tidytuesday/USA_Union_Members/index.html",
       "/tidytuesday/refugees/index.html",
+      "/tidytuesday/simbolos_spam/index.html",
       "/tidytuesday/fair_use_cases_in_education/index.html"
     ]
   },
   {
-    "listing": "/archive.html",
+    "listing": "/tidytuesday/index.html",
     "items": [
       "/tidytuesday/USA_Etymology/index.html",
       "/tidytuesday/USA_Union_Members/index.html",
       "/tidytuesday/refugees/index.html",
+      "/tidytuesday/simbolos_spam/index.html",
       "/tidytuesday/fair_use_cases_in_education/index.html"
     ]
   }
