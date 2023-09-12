@@ -5,7 +5,7 @@ listing:
   contents:
     - posts/**/*.qmd
     - tidytuesday/**/*.qmd
-		- "!tidytuesday/index.qmd"
+    - "!tidytuesday/index.qmd"
   type: default
   fields: [date, title]
   sort: 'date desc'
